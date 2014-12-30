@@ -3,32 +3,35 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Kalimata', sans-serif;
-    color: #666666;
+    font-family: "Kalimata", sans-serif;
+    color: #666;
 }
 
 body {
     width: 1024px;
 }
 
-.box {
-    border: 1px solid #cccccc;
-    padding: 30px 0px 30px 30px;
-    margin-top: 32px;
-}
+/* Header */ 
 
 h1 {
     font-size: 48px;
     line-height: 100px;
-    margin-bottom: 7px;
-    margin-top: 20px;
+    margin: 20px 0 7px;
 }
+
+/* Content */
 
 h2 {
     color: #f07c17;
     font-size: 25px;
     font-weight: bold;
     margin-top: 0;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 30px 0 30px 30px;
+    margin-top: 32px;
 }
 
 ul {
@@ -40,7 +43,7 @@ li {
     padding-left: 20px;
 }
 
-.paragraph{
+.paragraph {
     line-height: 30px;
     font-size: 16px;
     padding-right: 30px;
